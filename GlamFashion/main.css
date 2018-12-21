@@ -1,0 +1,158 @@
+.bg-img{
+	height: 100vH;
+	background-image: url("newpic2.jpg");
+	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+
+nav li a{
+	font-family: 'Raleway', sans-serif;
+	font-color: white;
+	font-weight: bold;
+}
+
+.navbar{
+	background-color: transparent;
+	color: white;
+}
+
+.dropdown-item{
+	color: black;
+}
+
+@font-face{
+	font-family: Bebas;
+	src:url(Bebas.ttf);
+}
+
+.jumbotron{
+	background-color: transparent;
+	font-family: Bebas, sans-serif;
+	font-weight: bold;
+	color:white;
+	font-size: 200%;
+	padding-left: 1%;
+	padding-top: 15%;
+	top:5%;
+
+}
+
+#play{
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  bottom: 1%;
+  right: 50%;
+  transform: translate(50%, -40%); 
+}
+
+#style{
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 150%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+}
+
+#style_p{
+	font-family: 'Sorts Mill Goudy', serif;
+	color: black;
+	text-align: center;
+	color: grey;
+}
+
+#jumbo{
+	border-bottom: 2px solid black;
+	border-color: grey;
+}
+
+.fashion{
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+#women{
+	float: right;
+	padding-right: 1%;
+	padding-top: 10%;
+	color: black;
+
+}
+
+#women_text{
+	font-family: 'Raleway', sans-serif;
+	color: grey;
+}
+
+#men{
+	float: left;
+	padding-left: 9%;
+	color: black;
+}
+
+#men_text{
+	font-family: 'Raleway', sans-serif;
+	color: grey;
+}
+
+#kids{
+	float: right;
+	padding-right: 2%;
+	color: black;
+
+}
+
+#kids_text{
+	font-family: 'Raleway', sans-serif;
+	color: grey;
+}
+
+#offer{
+	font-family: 'Raleway', sans-serif;
+	color: #696969;
+	font-size: 150%;
+	text-decoration: underline;
+	padding:5%;
+}
+
+#click_btn{
+	float: center;
+}
+
+#write{
+	font-family: 'Raleway', sans-serif;
+	font-size: 70%;
+	animation: type 8s steps(47);
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 3px solid white;
+	width: 47ch;
+}
+
+@keyframes type{
+	0%{
+		width: 0ch;
+	}
+	100%{
+		width: 47ch;
+	}
+
+}
+
+#styling{
+	border-top: 2px solid grey;
+	margin-top: 9%; 
+
+}
+
+#Copyright{
+	text-decoration: none;
+	color: white;
+}
+
+#footer{
+	font-family: 'Raleway', sans-serif;
+	color:white;
+}
+

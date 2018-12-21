@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Sorts+Mill+Goudy" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <style>
+      #panel1, .flip1 {
+          font-size: 16px;
+          padding: 10PX;
+          text-align: center;
+          color: black;
+          margin: 1% 20%;
+      }
+
+      #panel1 {
+          display: none;
+      }
+    </style>
+
+    <style>
+      #panel2, .flip2 {
+          font-size: 16px;
+          padding: 10PX;
+          text-align: center;
+          
+          color: black;
+          margin: 1% 20%;
+      }
+
+      #panel2 {
+          display: none;
+      }
+    </style>
+
+    <style>
+      #panel3, .flip3 {
+          font-size: 16px;
+          padding: 10PX;
+          text-align: center;
+          
+          color: black;
+          margin: 1% 20%;
+      }
+
+      #panel3 {
+          display: none;
+      }
+    </style>
+
+
+    <link rel="stylesheet" href="main.css">
+    <title>GlamFashion</title>
+  </head>
+
+
+  <body>
+
+    <div class="bg-img">
+       <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <img src="glamfash_logo1.png" width="200" height="70" alt="glamfash_logo">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+          FASHION
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#fashion1">WOMEN'S FASHION</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#fashion2">MEN'S FASHION</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#fashion3">KIDS' FASHION</a>
+        </div>
+      </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about_us" style="color: black;">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact_us" style="color: black;">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+    </div>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-1">GlamFashion</h1>
+            <p class="lead" id="write">YOUR ONE WAY DESTINATION FOR ANY TRENDY OUTFIT</p>
+
+        </div>
+      </div>
+
+      <a href="#jumbo" id="play"> <i class="fas fa-chevron-down"></i> </a>
+
+  </div>
+
+    <div class="container" id="jumbo"> 
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4" id="style">EXPERIENCE FASHION LIKE NEVER BEFORE!</h1>
+        <p class="lead" id="style_p">GlamFashion is your one way destination for any trendy outfit. Be it Indian or Western, men's, women's or kids'. We have something for everyone! Be sure to check out down below all that wehave in store for you!</p>
+    </div>
+    </div>
+
+    <div class="container-fluid" class="fashion" id="fashion1" style="margin-top: 8%">
+      <img src="pic5.jpg" style="margin-left: 3%">
+      <div class="jumbotron jumbotron-fluid" id="women">
+        <h1 class="display-4">Women's Fashion</h1>
+        <p class="lead" id="women_text">We have a huge collection of women's clothing. <br> Moreover, you get to choose from a large number of options!</p>
+    </div>
+    </div>
+    
+    <p class="flip1" onclick="myFunction1()" id="offer">WHAT WE OFFER >> </p>
+
+    <div id="panel1">
+      <p style="border-bottom: 2px solid grey" >TEES </p>
+      <p style="border-bottom: 2px solid grey" padding-top: 1%>TOPS </p>
+      <p style="border-bottom: 2px solid grey" padding-top: 1%>KURTIS </p>
+      <p style="border-bottom: 2px solid grey" padding-top: 1%>SALWAR SUITS </p>
+      <p style="border-bottom: 2px solid grey" >DENIMS </p>
+      <p>PALAZZOSS </p>
+    </div>
+
+
+
+    <div class="container-fluid" class="fashion" id="fashion2">
+      <img src="pic6.jpg" width="50%">
+      <div class="jumbotron jumbotron-fluid" id="men">
+        <h1 class="display-4">Men's Fashion</h1>
+        <p class="lead" id="men_text">From high-quality t-shirts to classic formal shirts,<br> we have some of the best in our collection.</p>
+    </div>
+    </div>
+
+    <p class="flip2" onclick="myFunction2()" id="offer">WHAT WE OFFER >> </p>
+
+    <div id="panel2">
+      <p style="border-bottom: 2px solid grey" >T-SHIRTS</p>
+      <p style="border-bottom: 2px solid grey" padding-top: 1%>FORMAL SHIRTS </p>
+      <p style="border-bottom: 2px solid grey" padding-top: 1%>KURTAS </p>
+      <p style="border-bottom: 2px solid grey" padding-top: 1%>TROUSERS </p>
+      <p>JEANS </p>
+    </div>
+
+    <div class="container-fluid" class="fashion" id="fashion3">
+      <img src="pic7.jpg" width="50%">
+      <div class="jumbotron jumbotron-fluid" id="kids">
+        <h1 class="display-4">Kids' Fashion</h1>
+        <p class="lead" id="kids_text">We haven't forgotten your little ones too! <br>We have a dazzling collection for your youngsters to try.</p>
+      </div>
+    </div>
+
+    <p class="flip3" onclick="myFunction3()" id="offer">WHAT WE OFFER >> </p>
+
+    <div id="panel3">
+      <p style="border-bottom: 2px solid grey" >T-SHIRTS</p>
+      <p style="border-bottom: 2px solid grey" padding-top: 1%>SHIRTS</p>
+      <p style="border-bottom: 2px solid grey" padding-top: 1%>FROCKS</p>
+      <p>JEANS </p>
+    </div>
+
+    <div class="container" id="styling"> 
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4" id="about_us" style="color: black; margin-top: -6%;">About Us</h1>
+        <p class="lead" id="kids_text">We are a small team of people who are trying our best to put the best quality of garments out there for our customers.</p>
+    </div>
+    </div>
+
+    <div class="container" id="styling"> 
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4" id="contact_us" style="color: black; margin-top: -6%;">Contact Us</h1>
+        <p class="lead" id="kids_text">Phone- <br> Email-.</p>
+    </div>
+    </div>
+
+
+    <div class="container-fluid" style="background-color: #000" id="about_us" style="margin-top:20%">
+      <!--Footer-->
+      <footer class="page-footer font-small blue pt-4 mt-4">
+
+        <!--Footer Links-->
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+
+             <!--First column-->
+                <div class="col-md-6">
+                    <h5 class="text-uppercase" id="footer">GlamFashion Pvt Ltd.</h5>
+                    <p style="color:#a8a8a8">A fashion brand for clothing.</p>
+                </div>
+              <div class="design">
+                <a href="#fashion1" style="text-decoration: none; color: grey;"> FASHION | </a>
+                <a href="#about_us" style="text-decoration: none; color: grey;"> ABOUT US | </a>
+                <a href="#contact_us" style="text-decoration: none; color: grey;"> CONTACT US | </a>
+              </div>
+          </div>
+        </div>
+
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center">
+          © 2018 Copyright:
+          <a href="index.html" id="Copyright"> GlamFashion.com </a>
+        </div>
+
+      </footer>                              
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+      function myFunction1() {
+          document.getElementById("panel1").style.display = "block";
+      }
+    </script>
+
+    <script>
+      function myFunction2() {
+          document.getElementById("panel2").style.display = "block";
+      }
+    </script>
+
+    <script>
+      function myFunction3() {
+          document.getElementById("panel3").style.display = "block";
+      }
+    </script>
+
+
+
+
+    
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
+
+</html>
